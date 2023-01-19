@@ -18,3 +18,7 @@
 ## <b>1/18</b>
 <span style="font-size:150%">python 함수</span>
 </br></br>
+
+## <b>1/19</b>
+<span style="font-size:150%">python 함수 응용</span>
+</br></br>
