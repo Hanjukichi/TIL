@@ -281,18 +281,15 @@ i의 j번째 비트가 1인지 아닌지를 검사
 
 <b>재귀함수 이용</b> 
 >```python
->def binarysearch(a, n, key):
->   start = 0
->   end = n-1
->   while start <= end:
->       middle = (start + end) // 2
->       if a[middle] == key:
->           return middle
->       elif a[middle] > key:
->           end = middle - 1
->       else:
->           start = middle + 1
->   return False
+>def binarysearch(a, start, end, key):
+>   if start > end:
+>       return -1
+>   elif a[middle] == key:
+>       return middle
+>   elif a[middle] > key:
+>       return binarysearch(a, start, middle-1, key)
+>   else:
+>       return binarysearch(a, middle + 1, end, key)
 >```
 
 <br><br>
