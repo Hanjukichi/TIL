@@ -1,5 +1,5 @@
-NMAX = 10
-MAXCANDIDATES = 10
+NMAX = 20
+MAXCANDIDATES = 20
 
 
 # 남아있는 candidate를 만드는 함수
