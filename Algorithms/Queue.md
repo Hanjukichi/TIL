@@ -285,4 +285,115 @@ front 변수
 - 네트워크 트래픽 제어
 - 운영체제의 테스크 스케줄링
 
+---
+
+### <b>ⅱ. 배열을 이용한 우선순위 큐</b>
+<br>
+
+배열을 이용한 우선순위 큐 구현
+- 배열을 이용하여 자료 저장
+- 원소를 삽입하면서 우선순위를 비교하여 적절한 위치에 삽입
+- 가장 앞에 최고 우선순위의 원소 위치
+
+문제점
+- 배열을 사용 > 삽입이나 삭제 연산 때 원소의 재배치 발생
+- 이에 소요되는 시간이나 메모리 낭비 큼
+
+<br><br>
+
+
+## <b>Ⅴ. 버퍼</b>
+
+---
+
+### <b>ⅰ. 버퍼란?</b>
+<br>
+
+데이터를 전송하는 동안 일시적으로 그 데이터를 보관하는 메모리의 영역  
+
+버퍼링
+- 버퍼를 활용하는 방식 또는 버퍼를 채우는 동작을 의미
+
+버퍼의 자료 구조
+- 일반적으로 입출력 및 네트워크 와 관련된 기능에 이용
+- 순서대로 입/출력/전달되어야함
+- FIFO 방식의 자료구조인 큐가 활용됨
+
+키보드 버퍼(예시)
+- 사용자 입력 : A P S enter
+- 키보드 입력 버퍼 : A P S enter
+- 입력 버퍼에 enter 들어옴 : enter S P A → 연산
+
+<br><br>
+
+
+## <b>Ⅴ. 넓이 우선 탐색(Breadth First Searh)</b>
+
+---
+
+### <b>ⅰ. BFS란?</b>
+<br>
+
+그래프를 탐색하는 방법 중 하나  
+
+탐색 시작점의 인접한 정점들을 먼저 모두 차례로 방문 후, 방문했던 정점을 시작점으로 하여 다시 인접한 정점들을 차례로 방문하는 방식  
+
+
+인접한 정점들에 대해 탐색을 한 후, 차례로 다시 너비우선탐색을 진행해야 하므로, 선입선출 형태의 자료구조인 큐를 활용함
+
+---
+
+### <b>ⅰ. BFS 알고리즘</b>
+<br>
+
+visited: 방문했음을 나타냄
+>```python
+># G: 그래프, v: 탐색 시작점
+>def BFS(G ,v, n):
+>   visited = [0] * (n+1)
+>   queue = []
+>   queue.append(v)
+>   while queue:
+>       t = queue.pop(0)    
+>       if not visited[t]:
+>           visited[t] = True
+>           visit[t]  # 정점 t에서 할 일
+>           for i in G[t]:
+>               if not visited[i]:
+>                   queue.append(i)
+>```
+
+visited: 인큐임을 나타냄
+>```python
+># G: 그래프, v: 탐색 시작점
+>def BFS(G ,v, n):
+>   visited = [0] * (n+1)
+>   queue = []
+>   queue.append(v)
+>   visited[v] = 1
+>   while queue:
+>       t = queue.pop(0)
+>       visit[t]  # 정점 t에서 할 일  
+>       for i in G[t]: 
+>           if not visited[t]               
+>               queue.append(i)
+>               visited[i] = 1
+>```
+
+visited: 출발지로부터의 거리
+>```python
+># G: 그래프, v: 탐색 시작점
+>def BFS(G ,v, n):
+>   visited = [0] * (n+1)
+>   queue = []
+>   queue.append(v)
+>   visited[v] = 1
+>   while queue:
+>       t = queue.pop(0)
+>       visit[t]  # 정점 t에서 할 일  
+>       for i in G[t]: 
+>           if not visited[t]               
+>               queue.append(i)
+>               visited[i] = 1
+>```
 
