@@ -249,22 +249,25 @@ Application
 ---
 <br>
 
-### <b>ⅰ. Django의 세가지 구조</b>
+### <b>ⅰ. 각 파일의 기능</b>
 <br>
 
-MTV
-- Model
-- View
-- Template
+URL
+- 구성
+- 실제 기능을 담당하는 view와의 연결
 
-URLs 흐름
-1. URL
-2. VIEW 
-3. TEMPLATE
-<br>
+view
+- 실제 기능
+- 함수를 사용
 
-### <b>ⅰ. Urls</b>
-<br>
+Template
+- 사용할 자원
+
+작동순서
+- URL -> VIEW -> TEMPLATE
+
+
+
 
 
 
