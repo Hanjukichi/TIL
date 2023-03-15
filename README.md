@@ -47,6 +47,20 @@
 
 <br>
 
-## <b>3/7 ~ | Web
+## <b>3/7 ~ 3/10 | Web</b>
 
 ### [Html Css 기초](https://github.com/Koneweekk/TIL/blob/main/Web/Html_Css.md)
+
+### [CSS](https://github.com/Koneweekk/TIL/blob/main/Web/CSS.md)
+
+### [CSS Layout](https://github.com/Koneweekk/TIL/blob/main/Web/CSS_Layout.md)
+
+### [반응형웹과 부트스트랩](https://github.com/Koneweekk/TIL/blob/main/Web/bootstrap.md)
+
+<br>
+
+## <b>3/14 ~ | Django</b>
+
+### [프레임워크의 시작](https://github.com/Koneweekk/TIL/blob/main/Django/Start_Framework.md)
+
+### [MTV와 CRUD](https://github.com/Koneweekk/TIL/blob/main/Django/MTV_CRUD.md)
