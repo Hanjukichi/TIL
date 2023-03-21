@@ -35,7 +35,7 @@ Django의 가장 강력한 기능 중 하나
 
 <br><br>
 
-## <b>Ⅰ. HTTP Method</b>
+## <b>Ⅱ. HTTP Method</b>
 
 ---
 <br>
@@ -106,3 +106,5 @@ HTTP Method
 
 내부 URL로 향하는 Post form을 사용하는 경우에 사용
 - 외부 URL의 경우 토근 유출 가능
+
+
