@@ -6,6 +6,11 @@
 ### [Markdown](https://github.com/Koneweekk/TIL/tree/main/Markdown)
 
 ### [Git](https://github.com/Koneweekk/TIL/blob/main/Git/Git.md)
+
+### [Git Undoing](https://github.com/Koneweekk/TIL/blob/main/Git/Undoing.md)
+
+### [Git Reset](https://github.com/Koneweekk/TIL/blob/main/Git/Reset.md)
+
 <br>
 
 ## <b>1/16 ~ 1/31 | 파이썬</b>
@@ -64,3 +69,21 @@
 ### [프레임워크의 시작](https://github.com/Koneweekk/TIL/blob/main/Django/Start_Framework.md)
 
 ### [MTV와 CRUD](https://github.com/Koneweekk/TIL/blob/main/Django/MTV_CRUD.md)
+
+### [Model과 ORM](https://github.com/Koneweekk/TIL/blob/main/Django/Model_ORM.md)
+
+### [HTTP Method](https://github.com/Koneweekk/TIL/blob/main/Django/HTTP_Mthod.md)
+
+### [Static Media](https://github.com/Koneweekk/TIL/blob/main/Django/Static_Media.md)
+
+### [start Authentication](https://github.com/Koneweekk/TIL/blob/main/Django/Auth1.md)
+
+### [use Authentication](https://github.com/Koneweekk/TIL/blob/main/Django/Auth2.md)
+
+<br> 
+
+## <b>4/5 ~ 4/12 | Database</b>
+
+### [Database 시작](https://github.com/Koneweekk/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
+
+### [조작과 모델링](https://github.com/Koneweekk/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%A1%B0%EC%9E%91%EA%B3%BC%EB%AA%A8%EB%8D%B8%EB%A7%81.md)
