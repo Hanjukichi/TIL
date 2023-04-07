@@ -76,9 +76,9 @@
 
 ### [Static Media](https://github.com/Koneweekk/TIL/blob/main/Django/Static_Media.md)
 
-### [start Authentication](https://github.com/Koneweekk/TIL/blob/main/Django/Auth1.md)
+### [Start Authentication](https://github.com/Koneweekk/TIL/blob/main/Django/Auth1.md)
 
-### [use Authentication](https://github.com/Koneweekk/TIL/blob/main/Django/Auth2.md)
+### [Use Authentication](https://github.com/Koneweekk/TIL/blob/main/Django/Auth2.md)
 
 <br> 
 
