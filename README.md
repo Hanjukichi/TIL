@@ -64,7 +64,7 @@
 
 <br>
 
-## <b>3/14 ~ | Django</b>
+## <b>3/14 ~ 4/17 | Django</b>
 
 ### [프레임워크의 시작](https://github.com/Koneweekk/TIL/blob/main/Django/Start_Framework.md)
 
@@ -80,6 +80,12 @@
 
 ### [Use Authentication](https://github.com/Koneweekk/TIL/blob/main/Django/Auth2.md)
 
+### [Use Authentication](https://github.com/Koneweekk/TIL/blob/main/Django/Auth2.md)
+
+### [REST API](https://github.com/Koneweekk/TIL/blob/main/Django/REST_API.md)
+
+### [Backend Framework](https://github.com/Koneweekk/TIL/blob/main/Django/Backend_Framework.md)
+
 <br> 
 
 ## <b>4/5 ~ 4/12 | Database</b>
@@ -87,3 +93,25 @@
 ### [Database 시작](https://github.com/Koneweekk/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
 
 ### [조작과 모델링](https://github.com/Koneweekk/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%A1%B0%EC%9E%91%EA%B3%BC%EB%AA%A8%EB%8D%B8%EB%A7%81.md)
+
+### [관계 (1:N)](https://github.com/Koneweekk/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EA%B4%80%EA%B3%841.md)
+
+### [관계 (M:N)](https://github.com/Koneweekk/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EA%B4%80%EA%B3%842.md)
+
+### [추가 내용](https://github.com/Koneweekk/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%B6%94%EA%B0%80%EB%82%B4%EC%9A%A9.md)
+
+<br>
+
+## <b>4/18 ~ 4/26 | Javascript</b>
+
+### [자료형과 제어문](https://github.com/Koneweekk/TIL/blob/main/Javascript/%EC%9E%90%EB%A3%8C%ED%98%95%EA%B3%BC%EC%A0%9C%EC%96%B4%EB%AC%B8.md)
+
+### [배열과 객체](https://github.com/Koneweekk/TIL/blob/main/Javascript/%EB%B0%B0%EC%97%B4%EA%B3%BC%EA%B0%9D%EC%B2%B4.md)
+
+### [DOM 조작](https://github.com/Koneweekk/TIL/blob/main/Javascript/DOM.md)
+
+### [이벤트(Event)](https://github.com/Koneweekk/TIL/blob/main/Javascript/%EC%9D%B4%EB%B2%A4%ED%8A%B8.md)
+
+### [비동기 처리](https://github.com/Koneweekk/TIL/blob/main/Javascript/%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC.md)
+
+### [AJAX](https://github.com/Koneweekk/TIL/blob/main/Javascript/AJAX.md)
