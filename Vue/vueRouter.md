@@ -138,3 +138,137 @@ export default router
 
 ### components/
 - routes에 매핑된 컴포넌트의 하위 컴포넌트를 모아두는 폴더
+
+<br><br>
+
+# Vue Router 활용
+
+## <b>선언적 방식 네비게이션</b>
+- `router-link`의 `to`속성으로 주소 전달
+- `routes`에 등록된 주소와 매핑된 컴포넌트로 이동
+- 동적인 값을 사용ㅎ게되면 v-bind를 사용해야 정상적으로 작동
+```html
+<router-link to="/">Home</router-link>
+<router-link :to="{name: 'home'}">Home</router-link>
+```
+
+<br>
+
+## <b>프로그래밍 방식 네비게이션</b>
+- Vue 인스턴스 내부에서 라우터 인스턴스에 `$router`로 접근 가능
+- 다른 URL로 이동하려면 `this.$router.push`를 사용
+  - history stack에 이동할 URL을 넣는 방식
+  - history stack에 기록이 남아 브라우저의 뒤로 가기 버튼 사용 가능
+```html
+<!-- AboutView.vue -->
+<template>
+  <div class="about">
+    <h1>This is an about page</h1>
+    <button @click='toHome'>홈으로</button>
+  </div>
+</template>
+<script>
+export default {
+  name: 'AboutView',
+  methods: {
+    toHome() {
+      this.$router.push({name:'home'})
+    }
+  }
+}
+</script>
+```
+
+<br>
+
+## <b>Dynamic Route Matching</b>
+- 동적 인자 전달
+  - URL의 특정 값을 변수처럼 사용 가능
+- route를 추가할 때 동적 인자를 명시
+- `$route.params`로 변수에 접근 가능
+- data에 넣어서 사용하는 것을 권장
+``` javascript
+// router/index.js
+import HelloView from '../views/HelloView.vue'
+
+...
+const routes = [
+  {
+    path: '/hello/:userName',
+    name: 'hello',
+    component: HelloView
+  }
+]
+...
+```
+```html
+<!-- HelloView.vue -->
+<template>
+  <div>
+    <h1>hello, {{ $route.params.userName }}</h1>
+    <h1>hello, {{ userName }}</h1>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'HellowView',
+  data() {
+    return {
+      userName: this.$route.params.userName
+    }
+  }
+}
+</script>
+```
+
+### 1. 선언적 방식 네비게이션
+- params를 이용하여 동적 인자 전달 가능
+```html
+<!-- App.vue -->
+<router-link :to="{name: 'hello', params: { userName: 'harry'}}">Hello</router-link>
+```
+
+### 2. 프로그래밍 방식 네비게이션
+- 직접 데이터를 입력받아 router를 통해 전달
+```html
+<template>
+  <div class="about">
+    <h1>This is an about page</h1>
+    <button @click='toHome'>홈으로</button>
+    <input type="text" v-model="inputData" @keyup.enter="goToHello">
+  </div>
+</template>
+<script>
+export default {
+  name: 'AboutView',
+  data() {
+    return{
+      inputData: null
+    }
+  },
+  methods: {
+    toHome() {
+      this.$router.push({name:'home'})
+    },
+    goToHello() {
+      this.$router.push({name:'hello', params: {userName: this.inputData}})
+    }
+  }
+}
+</script>
+```
+<br>
+
+## <b>lazy - loading</b>
+- 모든 파일을 한 번에 로드하면 시간이 매우 오래 걸림
+- 특정 라우트에 방문할 때만 매핑 컴포넌트 로드
+  - 최초 로드하는 시간이 빨라짐
+```javascript
+// router/index.js
+  {
+    path: '/about',
+    name: 'about',
+    component: () => import( '../views/AboutView.vue')
+  },
+```
