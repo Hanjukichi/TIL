@@ -1,7 +1,7 @@
 # Today I Learned
 <br>
 
-## <b>1/11 ~ 1/13 | 개발환경 기초</b>
+## <b>개발환경 기초</b>
 
 ### [Markdown](https://github.com/Koneweekk/TIL/tree/main/Markdown)
 
@@ -13,7 +13,7 @@
 
 <br>
 
-## <b>1/16 ~ 1/31 | 파이썬</b>
+## <b>파이썬</b>
 
 ### [python 기초](https://github.com/Koneweekk/TIL/blob/main/Python/230116.ipynb)
 
@@ -32,7 +32,7 @@
 ### [OOP와 예외 처리](https://github.com/Koneweekk/TIL/blob/main/Python/230131.ipynb)
 <br>
 
-## <b>2/1 ~ 3/6 | 알고리즘</b>
+## <b>알고리즘</b>
 
 ### [배열1](https://github.com/Koneweekk/TIL/blob/main/Algorithms/Array1.md)
 
@@ -52,7 +52,7 @@
 
 <br>
 
-## <b>3/7 ~ 3/10 | Web</b>
+## <b>Web</b>
 
 ### [Html Css 기초](https://github.com/Koneweekk/TIL/blob/main/Web/Html_Css.md)
 
@@ -64,7 +64,7 @@
 
 <br>
 
-## <b>3/14 ~ 4/17 | Django</b>
+## <b>Django</b>
 
 ### [프레임워크의 시작](https://github.com/Koneweekk/TIL/blob/main/Django/Start_Framework.md)
 
@@ -88,7 +88,7 @@
 
 <br> 
 
-## <b>4/5 ~ 4/12 | Database</b>
+## <b>Database</b>
 
 ### [Database 시작](https://github.com/Koneweekk/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
 
@@ -102,7 +102,7 @@
 
 <br>
 
-## <b>4/18 ~ 4/26 | Javascript</b>
+## <b>Javascript</b>
 
 ### [자료형과 제어문](https://github.com/Koneweekk/TIL/blob/main/Javascript/%EC%9E%90%EB%A3%8C%ED%98%95%EA%B3%BC%EC%A0%9C%EC%96%B4%EB%AC%B8.md)
 
@@ -115,3 +115,8 @@
 ### [비동기 처리](https://github.com/Koneweekk/TIL/blob/main/Javascript/%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC.md)
 
 ### [AJAX](https://github.com/Koneweekk/TIL/blob/main/Javascript/AJAX.md)
+
+<br>
+
+## <b>Vue</b>
+### [Vue 기초 문법](./Vue/vue기초문법.md)
