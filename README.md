@@ -157,7 +157,7 @@
 ## <b>Dart</b>
 
 <details>
-  <summary style="font-size: 1.2em;"><b>Dart 입문</b></summary>
+  <summary style="font-size: 1.5em;"><b>Dart 입문</b></summary>
   <div markdown="1">
     <h4><a href="./Dart/basic_syntax.md">기초 문법</a></h4>
     <h4><a href="./Dart/collection.md">컬렉션</a></h4>
