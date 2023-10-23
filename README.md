@@ -63,7 +63,7 @@
   </div>
 </details>
 
-<br><br>
+<br>
 
 # Ⅱ. 프로그래밍 언어
 
@@ -88,6 +88,28 @@
 </details>
 
 ## <b>2. Typescript</b> 
+<details>
+  <summary><b>타입과 인터페이스</b></summary>
+  <div markdown="1">
+    <h6><a href="./Typescript/type.md">기본 타입</a></h6>
+    <h6><a href="./Typescript/interface.md">인터페이스</a></h6>
+  </div>
+</details>
+<details>
+  <summary><b>추가 타입</b></summary>
+  <div markdown="1">
+    <h6><a href="./Typescript/union_intersection.md">유니온/교차 타입</a></h6>
+    <h6><a href="./Typescript/generic.md">Generic</a></h6>
+    <h6><a href="./Typescript/utility.md">Utility</a></h6>
+  </div>
+</details>
+<details>
+  <summary><b>클래스와 함수</b></summary>
+  <div markdown="1">
+    <h6><a href="./Typescript/function.md">함수</a></h6>
+    <h6><a href="./Typescript/class.md">클래스</a></h6>
+  </div>
+</details>
 
 ## <b>3. Dart</b>
 <details>
@@ -121,7 +143,7 @@
   </div>
 </details>
 
-<br><br>
+<br>
 
 # Ⅲ. FrontEnd
 
@@ -176,7 +198,7 @@
 
 ## <b>3. REACT</b>
 
-<br><br>
+<br>
 
 # Ⅳ. BackEnd
 
