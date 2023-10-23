@@ -3,13 +3,21 @@
 
 ## <b>개발환경 기초</b>
 
-### [Markdown](https://github.com/Koneweekk/TIL/tree/main/Markdown)
+<details>
+  <summary><b>Git</b></summary>
+  <div markdown="1">
+    <h4><a href="./Git/Git.md">Git</a></h4>
+    <h4><a href="./Git/Undoing.md">Git Undoing</a></h4>
+    <h4><a href="./Git/Reset.md">Git Reset</a></h4>
+  </div>
+</details>
 
-### [Git](https://github.com/Koneweekk/TIL/blob/main/Git/Git.md)
-
-### [Git Undoing](https://github.com/Koneweekk/TIL/blob/main/Git/Undoing.md)
-
-### [Git Reset](https://github.com/Koneweekk/TIL/blob/main/Git/Reset.md)
+<details>
+  <summary><b>Markdown</b></summary>
+  <div markdown="1">
+    <h4><a href="./Markdown">Markdown 기초</a></h4>
+  </div>
+</details>
 
 <br>
 
