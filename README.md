@@ -161,7 +161,7 @@
   <summary><b>Javascript</b></summary>
   <div markdown="1">
     <h6><a href="./Javascript/자료형과제어문.md">자료형과 제어문</a></h6>
-    <h6><a href="./Javascript/배열과객체.md.md">배열과 객체</a></h6>
+    <h6><a href="./Javascript/배열과객체.md">배열과 객체</a></h6>
     <h6><a href="./Javascript/DOM.md">DOM 조작</a></h6>
     <h6><a href="./Javascript/이벤트.md">CSS Layout</a></h6>
     <h6><a href="./Javascript/비동기처리.md">비동기 처리</a></h6>
