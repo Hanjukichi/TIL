@@ -23,21 +23,26 @@
 
 ## <b>파이썬</b>
 
-### [python 기초](https://github.com/Koneweekk/TIL/blob/main/Python/230116.ipynb)
+<details>
+  <summary><b>파이썬 기본</b></summary>
+  <div markdown="1">
+    <h4><a href="./Python/230116.ipynb">python 기초</a></h4>
+    <h4><a href="./Python/230117.ipynb">python 제어문</a></h4>
+    <h4><a href="./Python/230118.ipynb">python 함수</a></h4>
+    <h4><a href="./Python/230119.ipynb">python 함수 응용</a></h4>
+  </div>
+</details>
 
-### [python 제어문](https://github.com/Koneweekk/TIL/blob/main/Python/230117.ipynb)
+<details>
+  <summary><b>파이썬 심화</b></summary>
+  <div markdown="1">
+    <h4><a href="./Python/230125.ipynb">데이터 구조 1</a></h4>
+    <h4><a href="./Python/230126.ipynb">데이터 구조 2</a></h4>
+    <h4><a href="./Python/230130.ipynb">객체 지향 프로그래밍</a></h4>
+    <h4><a href="./Python/230131.ipynb">OOP와 예외 처리</a></h4>
+  </div>
+</details>
 
-### [python 함수](https://github.com/Koneweekk/TIL/blob/main/Python/230118.ipynb)
-
-### [python 함수 응용](https://github.com/Koneweekk/TIL/blob/main/Python/230119.ipynb)
-
-### [데이터 구조 1](https://github.com/Koneweekk/TIL/blob/main/Python/230125.ipynb)
-
-### [데이터 구조 2](https://github.com/Koneweekk/TIL/blob/main/Python/230126.ipynb)
-
-### [객체 지향 프로그래밍](https://github.com/Koneweekk/TIL/blob/main/Python/230130.ipynb)
-
-### [OOP와 예외 처리](https://github.com/Koneweekk/TIL/blob/main/Python/230131.ipynb)
 <br>
 
 ## <b>알고리즘</b>
