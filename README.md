@@ -1,182 +1,183 @@
-# Today I Learned
-<br>
+# Ⅰ. CS
 
-## <b>개발환경 기초</b>
-
+## <b>1. 개발환경 기초</b>
 <details>
   <summary><b>Git</b></summary>
   <div markdown="1">
-    <h4><a href="./Git/Git.md">Git</a></h4>
-    <h4><a href="./Git/Undoing.md">Git Undoing</a></h4>
-    <h4><a href="./Git/Reset.md">Git Reset</a></h4>
+    <h6><a href="./Git/Git.md">Git</a></h6>
+    <h6><a href="./Git/Undoing.md">Git Undoing</a></h6>
+    <h6><a href="./Git/Reset.md">Git Reset</a></h6>
   </div>
 </details>
-
 <details>
   <summary><b>Markdown</b></summary>
   <div markdown="1">
-    <h4><a href="./Markdown">Markdown 기초</a></h4>
+    <h6><a href="./Markdown">Markdown 기초</a></h6>
   </div>
 </details>
 
-<br>
+## <b>2. 알고리즘</b>
+<details>
+  <summary><b>배열과 문자열</b></summary>
+  <div markdown="1">
+    <h6><a href="./Algorithms/Array1.md">배열 1</a></h6>
+    <h6><a href="./Algorithms/Array2.md">배열 2</a></h6>
+    <h6><a href="./Algorithms/String.md">문자열</a></h6>
+  </div>
+</details>
+<details>
+  <summary><b>스택과 큐</b></summary>
+  <div markdown="1">
+    <h6><a href="./Algorithms/Stack1.md">스택 1</a></h6>
+    <h6><a href="./Algorithms/Stack2.md">스택 2</a></h6>
+    <h6><a href="./Algorithms/Queue.md">큐</a></h6>
+  </div>
+</details>
+<details>
+  <summary><b>심화</b></summary>
+  <div markdown="1">
+    <h6><a href="./Algorithms/Tree.md">트리</a></h6>
+    <h6><a href="./Algorithms/APS응용.md">APS 응용</a></h6>
+  </div>
+</details>
 
-## <b>파이썬</b>
+## <b>3. 데이터베이스</b>
+<details>
+  <summary><b>DB 기본</b></summary>
+  <div markdown="1">
+    <h6><a href="./DB/데이터베이스시작하기.md">Database 시작</a></h6>
+    <h6><a href="./DB/데이터베이스조작과모델링.md">조작과 모델링</a></h6>
+  </div>
+</details>
+<details>
+  <summary><b>DB 관계</b></summary>
+  <div markdown="1">
+    <h6><a href="./DB/데이터베이스관계1.md">관계 (1:N)</a></h6>
+    <h6><a href="./DB/데이터베이스관계2.md">관계 (M:N)</a></h6>
+  </div>
+</details>
+<details>
+  <summary><b>DB 심화</b></summary>
+  <div markdown="1">
+    <h6><a href="./DB/데이터베이스추가내용.md">추가 내용</a></h6>
+  </div>
+</details>
 
+<br><br>
+
+# Ⅱ. 프로그래밍 언어
+
+## <b>1. 파이썬</b>
 <details>
   <summary><b>파이썬 기본</b></summary>
   <div markdown="1">
-    <h4><a href="./Python/230116.ipynb">python 기초</a></h4>
-    <h4><a href="./Python/230117.ipynb">python 제어문</a></h4>
-    <h4><a href="./Python/230118.ipynb">python 함수</a></h4>
-    <h4><a href="./Python/230119.ipynb">python 함수 응용</a></h4>
+    <h6><a href="./Python/230116.ipynb">python 기초</a></h6>
+    <h6><a href="./Python/230117.ipynb">python 제어문</a></h6>
+    <h6><a href="./Python/230118.ipynb">python 함수</a></h6>
+    <h6><a href="./Python/230119.ipynb">python 함수 응용</a></h6>
   </div>
 </details>
-
 <details>
   <summary><b>파이썬 심화</b></summary>
   <div markdown="1">
-    <h4><a href="./Python/230125.ipynb">데이터 구조 1</a></h4>
-    <h4><a href="./Python/230126.ipynb">데이터 구조 2</a></h4>
-    <h4><a href="./Python/230130.ipynb">객체 지향 프로그래밍</a></h4>
-    <h4><a href="./Python/230131.ipynb">OOP와 예외 처리</a></h4>
+    <h6><a href="./Python/230125.ipynb">데이터 구조 1</a></h6>
+    <h6><a href="./Python/230126.ipynb">데이터 구조 2</a></h6>
+    <h6><a href="./Python/230130.ipynb">객체 지향 프로그래밍</a></h6>
+    <h6><a href="./Python/230131.ipynb">OOP와 예외 처리</a></h6>
   </div>
 </details>
 
-<br>
+## <b>2. Typescript</b> 
 
-## <b>알고리즘</b>
-
-### [배열1](https://github.com/Koneweekk/TIL/blob/main/Algorithms/Array1.md)
-
-### [배열2](https://github.com/Koneweekk/TIL/blob/main/Algorithms/Array2.md)
-
-### [문자열](https://github.com/Koneweekk/TIL/blob/main/Algorithms/String.md)
-
-### [스택1](https://github.com/Koneweekk/TIL/blob/main/Algorithms/Stack1.md)
-
-### [스택2](https://github.com/Koneweekk/TIL/blob/main/Algorithms/Stack2.md)
-
-### [큐](https://github.com/Koneweekk/TIL/blob/main/Algorithms/Queue.md)
-
-### [트리](https://github.com/Koneweekk/TIL/blob/main/Algorithms/Tree.md)
-
-### [APS응용](https://github.com/Koneweekk/TIL/blob/main/Algorithms/APS%EC%9D%91%EC%9A%A9.md)
-
-<br>
-
-## <b>Web</b>
-
-### [Html Css 기초](https://github.com/Koneweekk/TIL/blob/main/Web/Html_Css.md)
-
-### [CSS](https://github.com/Koneweekk/TIL/blob/main/Web/CSS.md)
-
-### [CSS Layout](https://github.com/Koneweekk/TIL/blob/main/Web/CSS_Layout.md)
-
-### [반응형웹과 부트스트랩](https://github.com/Koneweekk/TIL/blob/main/Web/bootstrap.md)
-
-<br>
-
-## <b>Django</b>
-
-### [프레임워크의 시작](https://github.com/Koneweekk/TIL/blob/main/Django/Start_Framework.md)
-
-### [MTV와 CRUD](https://github.com/Koneweekk/TIL/blob/main/Django/MTV_CRUD.md)
-
-### [Model과 ORM](https://github.com/Koneweekk/TIL/blob/main/Django/Model_ORM.md)
-
-### [HTTP Method](https://github.com/Koneweekk/TIL/blob/main/Django/HTTP_Mthod.md)
-
-### [Static Media](https://github.com/Koneweekk/TIL/blob/main/Django/Static_Media.md)
-
-### [Start Authentication](https://github.com/Koneweekk/TIL/blob/main/Django/Auth1.md)
-
-### [Use Authentication](https://github.com/Koneweekk/TIL/blob/main/Django/Auth2.md)
-
-### [Use Authentication](https://github.com/Koneweekk/TIL/blob/main/Django/Auth2.md)
-
-### [REST API](https://github.com/Koneweekk/TIL/blob/main/Django/REST_API.md)
-
-### [Backend Framework](https://github.com/Koneweekk/TIL/blob/main/Django/Backend_Framework.md)
-
-<br> 
-
-## <b>Database</b>
-
-### [Database 시작](https://github.com/Koneweekk/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
-
-### [조작과 모델링](https://github.com/Koneweekk/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%A1%B0%EC%9E%91%EA%B3%BC%EB%AA%A8%EB%8D%B8%EB%A7%81.md)
-
-### [관계 (1:N)](https://github.com/Koneweekk/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EA%B4%80%EA%B3%841.md)
-
-### [관계 (M:N)](https://github.com/Koneweekk/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EA%B4%80%EA%B3%842.md)
-
-### [추가 내용](https://github.com/Koneweekk/TIL/blob/main/DB/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%B6%94%EA%B0%80%EB%82%B4%EC%9A%A9.md)
-
-<br>
-
-## <b>Javascript</b>
-
-### [자료형과 제어문](https://github.com/Koneweekk/TIL/blob/main/Javascript/%EC%9E%90%EB%A3%8C%ED%98%95%EA%B3%BC%EC%A0%9C%EC%96%B4%EB%AC%B8.md)
-
-### [배열과 객체](https://github.com/Koneweekk/TIL/blob/main/Javascript/%EB%B0%B0%EC%97%B4%EA%B3%BC%EA%B0%9D%EC%B2%B4.md)
-
-### [DOM 조작](https://github.com/Koneweekk/TIL/blob/main/Javascript/DOM.md)
-
-### [이벤트(Event)](https://github.com/Koneweekk/TIL/blob/main/Javascript/%EC%9D%B4%EB%B2%A4%ED%8A%B8.md)
-
-### [비동기 처리](https://github.com/Koneweekk/TIL/blob/main/Javascript/%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC.md)
-
-### [AJAX](https://github.com/Koneweekk/TIL/blob/main/Javascript/AJAX.md)
-
-<br>
-
-## <b>Vue</b>
-
-### [Vue 기초 문법](./Vue/vue기초문법.md)
-
-### [Vue 심화 문법](./Vue/vue심화문법.md)
-
-### [Vue CLI](./Vue/vueCLI.md)
-
-### [Vue 데이터 통신](./Vue/vue데이터통신.md)
-
-### [Vue 상태 관리](./Vue/vue상태통신.md)
-
-### [Vue Advanced](./Vue/vueAdvanced.md)
-
-### [Vue Router](./Vue/vueRouter.md)
-
-### [Vue With Drf](./Vue/vueWithDRF.md)
-
-### [Vue 리이프사이클훅](./Vue/vue라이프사이클훅.md)
-
-### [Vue Auth](./Vue/vueAuth.md)
-
-<br>
-
-## <b>React</b>
-
-### [React](./React/React.md)
-
-### [Typescript](./React/TS.md)
-
-### [zustand](./React/Zustand.md)
-
-### [React-Typescript](./React/React-Typescript.md)
-
-<br>
-
-## <b>Dart</b>
-
+## <b>3. Dart</b>
 <details>
-  <summary style="font-size: 1.5em;"><b>Dart 입문</b></summary>
+  <summary><b>Dart 입문</b></summary>
   <div markdown="1">
-    <h4><a href="./Dart/basic_syntax.md">기초 문법</a></h4>
-    <h4><a href="./Dart/collection.md">컬렉션</a></h4>
-    <h4><a href="./Dart/operator.md">연산자</a></h4>
-    <h4><a href="./Dart/control_statements.md">제어문</a></h4>
-    <h4><a href="./Dart/function_lambda.md">함수</a></h4>
-    <h4><a href="./Dart/try_catch.md">예외 처리</a></h4>
+    <h6><a href="./Dart/basic_syntax.md">기초 문법</a></h6>
+    <h6><a href="./Dart/collection.md">컬렉션</a></h6>
+    <h6><a href="./Dart/operator.md">연산자</a></h6>
+    <h6><a href="./Dart/control_statements.md">제어문</a></h6>
+    <h6><a href="./Dart/function_lambda.md">함수</a></h6>
+    <h6><a href="./Dart/try_catch.md">예외 처리</a></h6>
+  </div>
+</details>
+
+<br><br>
+
+# Ⅲ. FrontEnd
+
+## <b>1. Web</b>
+<details>
+  <summary><b>HTML과 CSS</b></summary>
+  <div markdown="1">
+    <h6><a href="./Web/Html_Css.md">Html와 CSS 기초</a></h6>
+    <h6><a href="./Web/CSS.md">CSS</a></h6>
+    <h6><a href="./Web/CSS_Layout.md">CSS Layout</a></h6>
+    <h6><a href="./Web/bootstrap.md">반응형웹과 부트스트랩</a></h6>
+  </div>
+</details>
+<details>
+  <summary><b>Javascript</b></summary>
+  <div markdown="1">
+    <h6><a href="./Javascript/자료형과제어문.md">자료형과 제어문</a></h6>
+    <h6><a href="./Javascript/배열과객체.md.md">배열과 객체</a></h6>
+    <h6><a href="./Javascript/DOM.md">DOM 조작</a></h6>
+    <h6><a href="./Javascript/이벤트.md">CSS Layout</a></h6>
+    <h6><a href="./Javascript/비동기처리.md">비동기 처리</a></h6>
+    <h6><a href="./Javascript/AJAX.md">AJAX</a></h6>
+  </div>
+</details>
+
+## <b>2. VUE</b>
+<details>
+  <summary><b>Vue 문법</b></summary>
+  <div markdown="1">
+    <h6><a href="./Vue/vue기초문법.md">Vue 기초 문법</a></h6>
+    <h6><a href="./Vue/vue심화문법.md">Vue 심화 문법</a></h6>
+  </div>
+</details>
+<details>
+  <summary><b>Vue 기능</b></summary>
+  <div markdown="1">
+    <h6><a href="./Vue/vueCLI.md">Vue CLI</a></h6>
+    <h6><a href="./Vue/vue데이터통신.md">Vue 데이터 통신</a></h6>
+    <h6><a href="./Vue/vue상태통신.md">Vue 상태 관리</a></h6>
+    <h6><a href="./Vue/vueAdvanced.md">Vue Advanced</a></h6>
+    <h6><a href="./Vue/vueRouter.md">Vue Router</a></h6>
+  </div>
+</details>
+<details>
+  <summary><b>Vue 응용</b></summary>
+  <div markdown="1">
+    <h6><a href="./Vue/vueWithDRF.md">Vue With CLI</a></h6>
+    <h6><a href="./Vue/vue라이프사이클훅.md">Vue 라이프사이클훅</a></h6>
+    <h6><a href="./Vue/vueAuth.md">Vue Auth</a></h6>
+  </div>
+</details>
+
+## <b>3. REACT</b>
+
+<br><br>
+
+# Ⅳ. BackEnd
+
+## <b>1. Django</b>
+<details>
+  <summary><b>Djnago 기본</b></summary>
+  <div markdown="1">
+    <h6><a href="./Django/Start_Framework.md">프레임워크의 시작</a></h6>
+    <h6><a href="./Django/MTV_CRUD.md">MTV와 CRUD</a></h6>
+    <h6><a href="./Django/HTTP_Mthod.md">HTTP Method</a></h6>
+    <h6><a href="./Django/Model_ORM.md">Model과 ORM</a></h6>
+    <h6><a href="./Django/Static_Media.md">Static Media</a></h6>
+  </div>
+</details>
+<details>
+  <summary><b>Djnago 응용</b></summary>
+  <div markdown="1">
+    <h6><a href="./Django/Auth1.md">Start Authentication</a></h6>
+    <h6><a href="./Django/Auth2.md">Use Authentication</a></h6>
+    <h6><a href="./Django/REST_API.md">REST API</a></h6>
+    <h6><a href="./Django/Backend_Framework.md">Backend Framework</a></h6>
   </div>
 </details>
