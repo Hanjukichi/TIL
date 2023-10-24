@@ -113,7 +113,7 @@
 
 ## <b>3. Dart</b>
 <details>
-  <summary><b>Dart 입문</b></summary>
+  <summary><b>입문</b></summary>
   <div markdown="1">
     <h6><a href="./Dart/basic_syntax.md">기초 문법</a></h6>
     <h6><a href="./Dart/collection.md">컬렉션</a></h6>
@@ -124,7 +124,7 @@
   </div>
 </details>
 <details>
-  <summary><b>Dart 객체 지향</b></summary>
+  <summary><b>객체 지향</b></summary>
   <div markdown="1">
     <h6><a href="./Dart/construction.md">생성자</a></h6>
     <h6><a href="./Dart/getter_setter.md">Getter와 Setter</a></h6>
@@ -136,10 +136,16 @@
   </div>
 </details>
 <details>
-  <summary><b>Dart 비동기 처리</b></summary>
+  <summary><b>비동기 처리</b></summary>
   <div markdown="1">
     <h6><a href="./Dart/Future.md">Future</a></h6>
     <h6><a href="./Dart/Stream.md">Stream</a></h6>
+  </div>
+</details>
+<details>
+  <summary><b>업데이트 내용</b></summary>
+  <div markdown="1">
+    <h6><a href="./Dart/update_3.md">다트 3.0 업데이트 내용</a></h6>
   </div>
 </details>
 
